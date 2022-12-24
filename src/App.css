@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+body{
+  background: #fafafa;
+  font-family: 'Rubik', sans-serif;
+}
+.navbar {
+  border-top: 4px solid #f48225;
+}
+
+.sidebar {
+  width: 200px;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-right: 2px solid #dbdbdb;
+  display: block;
+}
+
+
+.active {
+  background: #fcf5ed !important;
+  color: #000 !important;
+  border-right: 4px solid #f48225;
+}
+
+.navbar-brand:hover {
+  background: #f1f2f3 !important;
+}
+a{
+  color: #0095ff ;
+}
+
+
+/* CSS */
+.nav-btn {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+  background-color: #07c;
+  color: #f1f2f3;
+}
+
+.nav-btn:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.nav-btn:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+
+
+
+.nav-btn-2 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.nav-btn-2:hover,
+.nav-btn-2:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.nav-btn-2:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.nav-btn-2:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+.b-b{
+  border-bottom: 1px solid #dbdbdb;
+}
+.post-links > div >a{
+  color: #0e83ff !important;
+  font-weight: bold;
+}
+.post_tag{
+  background: #e9f3ff !important;
+  color: #0e83ff !important;
+}
+.blue_text{
+  color: #0064bd ;
+  font-weight: bold;
+}
+.gray{
+  color: #c0c0c0 !important;
+}
+.tab-active{
+  border-bottom: 3px solid #0095ff;
+}
+.tag-card{
+  border: 1px solid #2c5777;
+}
+.model_input{
+  box-shadow: none !important;
+  transition: 0.1s;
+}
+.modal{
+  border-radius: 5px !important;
+}
+.hr_post{
+  background: rgb(236, 236, 236) !important;
+}
+.avatar_nav{
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.profile_card{
+  border: 1px solid #dbdbdb;
+}
+
+.level-item{
+  display: block;
+}
+.users_avatar{
+  width: 4rem;
+  height: 4rem;
+}
+
+@media screen and (min-width:800px){
+  .wrapper{
+    margin-left:200px
+  }
+}
+.nav_ask{
+  background: #f48225 !important;
+  color: #fff;
+}
+.nav_ask:hover{
+  color: #fff;
+}
+.ques_input{
+  box-shadow: none !important;
+}
+.nav_ask:active{
+  color: #fff;
+  box-shadow: none !important;
+}
+.nav_ask:focus{
+  color: #fff;
+  box-shadow: none !important;
+}
+.replay{
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+.vote_btn{
+  border: none !important;
+  background: transparent !important;
+  outline: none !important;
+}
+.voted{
+  color: #f48225;
+}
+.voted:hover{
+  color: #f48225;
+}
+.voted:active{
+  color: #f48225;
+}
+.voted:focus{
+  color: #f48225;
+}
+.images {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
